@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFCFC;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+.cuerpo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.acuerdo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reg__button{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+.btn__reg{
+background-color:#166306;
+color: white;
+padding: 10px 10px;
+font-size: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+border:1px solid #000;
+box-sizing: border-box;
+
+}
+.conectar{
+    text-align: center;
+    font-size: 24px;
+}
+
+.btn__inicio{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    background-color: #166306;
+    color:white;
+    border-radius: 20px;
+    border:1px solid #000;
+    box-sizing: border-box;
+    
+}
