@@ -44,7 +44,7 @@ const pintarCards = data =>{
     cards.appendChild(fragment)
 }
 const addCarrito = e =>{
-    if(e.target.classList.contains('btn-dark')){
+    if(e.target.classList.contains('btn-success')){  //cambio dark a success
 setCarrito(e.target.parentElement)
     }
     e.stopPropagation()
